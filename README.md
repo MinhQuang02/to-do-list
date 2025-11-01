@@ -1,6 +1,4 @@
-# page-fbb55ed2-5879-466c-a00b-95295ae04663
-
-Generated Tailwind CSS project from PXCode.
+# To do List
 
 ## Quick Start
 
