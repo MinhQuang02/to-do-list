@@ -1,0 +1,20 @@
+API CẦN THIẾT CHO TODO APP
+
+1. GET /api/todos
+   - Lấy danh sách tất cả todos
+   - Response: [{ id, text, done, priority }]
+
+2. POST /api/todos
+   - Tạo todo mới
+   - Body: { text, priority }
+   - Response: { id, text, done, priority }
+
+3. PUT /api/todos/:id
+   - Cập nhật todo (text, priority, done)
+   - Body: { text?, priority?, done? }
+   - Response: { id, text, done, priority }
+
+4. DELETE /api/todos/:id
+   - Xóa todo
+   - Response: { success: true }
+
