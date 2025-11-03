@@ -9,7 +9,7 @@ const PORT = 3000; // We'll run on port 3000
 // This parses incoming JSON from the body of POST/PUT requests
 app.use(express.json());
 // This serves all static files (like index.html, app.js) from the current folder
-app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, '/views/')));
 
 // --- 3. In-Memory "Database" (as requested) ---
 let todos = [

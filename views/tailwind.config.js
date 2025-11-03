@@ -11,7 +11,6 @@ module.exports = {
     },
     extend: {
       spacing: {
-        // 擴展間距 (0.25rem 遞增到 120rem)
         ...(() => {
           const result = {};
           for (let i = 1; i <= 480; i++) {
@@ -21,7 +20,6 @@ module.exports = {
         })()
       },
       fontSize: {
-        // 擴展字體大小 (0.75rem 到 10rem)
         ...(() => {
           const result = {};
           for (let i = 12; i <= 160; i++) {

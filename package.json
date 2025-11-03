@@ -1,15 +1,20 @@
 {
-  "name": "page-fbb55ed2-5879-466c-a00b-95295ae04663",
+  "name": "to-do-list",
   "version": "1.0.0",
-  "description": "Generated Tailwind CSS project from PXCode",
+  "description": "A simple to-do list application using Tailwind CSS and Express.js",
   "scripts": {
     "start": "node server.js",
     "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
     "build-watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
   },
-  "keywords": ["tailwind", "css", "pxcode"],
+  "keywords": [
+    "tailwind",
+    "css",
+    "to-do-list",
+    "express"
+  ],
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "tailwindcss": "^3.4.16"

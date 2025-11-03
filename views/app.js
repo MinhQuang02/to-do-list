@@ -248,4 +248,3 @@ window.addEventListener('resize', updateFloatingBtn);
 /* Init */
 loadTodos();
 updateFloatingBtn();
-
